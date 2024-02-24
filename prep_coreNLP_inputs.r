@@ -8,7 +8,9 @@ all_QA <- list()
 all_presentatuon <- list()
 
 
-foe()
+for(single_csv_file in csv_files) {
+    single_dataframe = read.csv(single_csv_file)
+}
 
 
     return()
